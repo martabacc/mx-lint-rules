@@ -1,0 +1,38 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "mx-lint-node",
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "scripts": {
+    "lint": "eslint -c index.js index.js",
+    "lint:fix": "eslint -c index.js index.js --fix",
+    "precommit": "npm run lint",
+    "release": "npm test && standard-version",
+    "test": "npm run lint"
+  },
+  "version": "0.0.0"
+}
