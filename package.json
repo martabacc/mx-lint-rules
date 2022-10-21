@@ -18,7 +18,7 @@
   ],
   "license": "UNLICENSED",
   "main": "index.js",
-  "name": "mx-lint-node",
+  "name": "mx-eslint-node-config",
   "peerDependencies": {
     "eslint": "^7.0.0",
     "eslint-config-airbnb": "^19.0.4",
